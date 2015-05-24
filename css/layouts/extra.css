@@ -1,0 +1,181 @@
+.musea img, .beziens img, .religieus img, .activiteiten img, .eten img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hidden{
+    display:none;
+}
+
+<!--.content:nth-child(even) {
+   background: rgb(56,60,60);
+}-->
+.fa-chevron-right{
+    float:right;
+    color:rgb(56,60,60);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fa-chevron-left{
+    float:left;
+    color:rgb(56,60,60);
+}
+
+<!--.content:nth-child(even) h4, .content:nth-child(even) h2, .content:nth-child(even) .pure-g i{
+    color:white;
+}-->
+
+.next{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:200px;
+    margin-top:10px;
+}
+
+/* about pagina */
+.about-contact i {
+    margin-right: 1em;
+}
+
+.about-splash{
+    background-image:url(../../img/splash/11085726_956436514389744_1104507397_o.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.citymap-splash{
+    background-image:url(../../img/splash/treasure.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.event img{
+    float:left;
+    height:100px;
+    margin-right: 2em;
+    margin-bottom:px;
+}
+
+.event_box{
+    width:435px;
+    height:150px;
+}
+
+.event h3{
+    float:left;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+
+.event p{
+    float:left;
+    margin-top:.3em;
+    margin-bottom:.3em;
+}
+
+.l-box-lrg.pure-u-1.pure-u-md-2-5.event{
+    width:auto;
+    padding:6px;
+}
+
+@media (max-width:480px){
+    .event_box{
+    width:inherit;
+}
+}
+
+@media (max-width:770px){
+    .l-box-lrg.pure-u-1.pure-u-md-2-5.event{
+        border-bottom:none;
+    }
+}
+
+.citymap{
+    width:450px;
+    margin: auto auto;
+    letter-spacing:normal;
+}
+
+.head-citymap{
+    margin-bottom:10px;
+}
+
+.citymap p{
+    font-size:10px;
+    margin-top: 1px;
+}
+
+.head-citymap .pure-menu-item {
+    display:inline;
+    margin-right:2px;
+}
+
+.head-citymap .pure-menu-item:hover{
+    color:#1d8ff6;
+    cursor:pointer;
+}
+
+.head-citymap .pure-menu-list{
+    padding-left:30px;
+}
+
+.head-citymap .pure-menu-list .citymap-selected{
+    color:rgb(200,161,50);
+}
+.citymap ul{
+    margin-bottom:1em;
+}
+.citymap a img {
+    height:450px;
+}
+
+.musea h2{
+    background-image: url(../../img/onderscheid/musea.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    
+}
+
+.beziens h2{
+    background-image: url(../../img/onderscheid/beziens.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.religieus h2{
+    background-image: url(../../img/onderscheid/religieus.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.eten h2{
+    background-image: url(../../img/onderscheid/eten.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.activiteiten h2{
+    background-image:url(../../img/onderscheid/activiteiten.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+@font-face{
+    font-family:'basicT';
+    src:url(../../css/fonts/basictitlefont.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:'TCM';
+    src:url(../../css/fonts/TCM.TTF) format('truetype');
+}
+
+p{
+    font-family:'TCM';
+}
+
+h1,h2,h3,h4{
+    font-family:'basicT';
+}
